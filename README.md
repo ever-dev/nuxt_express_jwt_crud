@@ -1,13 +1,12 @@
 # Nuxt/Express/MongoDB/JWT Admin CRUD Boilerplate
 <img src="/assets/misc/crud.gif?raw=true"></img>
 > Automatic Express API and CRUD web app for your MongoDB collections. Just add your schema to the *data_api/models* folder and run the included setup script to customize your configuration and add your admin credentials. All API endpoints and web app pages are protected by JSON Web Token authentification automatically.
-* Coffeescript version - [Coffeescript Nuxt CRUD](https://github.com/edmundpf/coffee_nuxt_crud)
+
 ## Setup
 * Install
 	``` bash
 	# Clone the repo
-	$ git clone git@github.com:edmundpf/nuxt_express_jwt.git
-
+	$ git clone git@github.com:ever-dev/nuxt_express_jwt_crud.git
 	# Install the dependencies
 	$ npm install
 	```
@@ -40,7 +39,6 @@
 	``` bash
 	# Launch dev instance
 	$ npm run dev
-
 	# Run in production mode
 	$ npm build
 	$ npm start
@@ -50,9 +48,9 @@
 		* You'll need to login again to get a new token
 ## API Routes
 * Use any language of choice to edit your data and see the changes on the web app in real time
-* [API Info](https://github.com/edmundpf/nuxt_express_jwt_crud/blob/master/data_api/README.md)
+* [API Info](https://github.com/ever-dev/nuxt_express_jwt_crud/blob/master/data_api/README.md)
 ## Web App Info
-* [Additional Web App Info](https://github.com/edmundpf/nuxt_express_jwt_crud/blob/master/pages/README.md)
+* [Additional Web App Info](https://github.com/ever-dev/nuxt_express_jwt_crud/blob/master/pages/README.md)
 ## Schema Info
-* [Included Schema Specs](https://github.com/edmundpf/nuxt_express_jwt_crud/blob/master/data_api/models/README.md)
-* [Model Hooks Info](https://github.com/edmundpf/nuxt_express_jwt_crud/blob/master/data_api/utils/README.md)
+* [Included Schema Specs](https://github.com/ever-dev/nuxt_express_jwt_crud/blob/master/data_api/models/README.md)
+* [Model Hooks Info](https://github.com/ever-dev/nuxt_express_jwt_crud/blob/master/data_api/utils/README.md)
